@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public class PetStore {
 
-    public Animal dog = new Dog("Rex", 4, 600);
-    public Animal cat = new Cat("Murzik", 2, 450);
+    public Animal dog = new Dog("Рэкс", 4, 600);
+    public Animal cat = new Cat("Мурзик", 2, 450);
 
     public PetStore() {
         System.out.println("Добро пожаловать в наш зоомагазин 'Верный Друг'");
